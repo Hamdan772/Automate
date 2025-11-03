@@ -1,6 +1,5 @@
 ## 🌐 Automate
 
-<div align="center">
 
 Automate is an open-source AI web automation tool that runs in your browser. A free alternative to OpenAI Operator with flexible LLM options and multi-agent system.
 
