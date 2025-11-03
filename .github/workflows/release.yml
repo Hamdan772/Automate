@@ -1,0 +1,66 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  create-release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+      
+      - name: Install dependencies
+        run: pnpm install
+      
+      - name: Build extension
+        run: pnpm build
+      
+      - name: Create distribution zip
+        run: pnpm zip
+      
+      - name: Extract version from tag
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist-zip/*.zip
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+          name: Release ${{ steps.get_version.outputs.VERSION }}
+          body: |
+            ## 🎉 Automate ${{ steps.get_version.outputs.VERSION }}
+            
+            ### Installation
+            
+            1. Download the `automate-v${{ steps.get_version.outputs.VERSION }}.zip` file
+            2. Extract the contents
+            3. Open Chrome and go to `chrome://extensions/`
+            4. Enable "Developer mode"
+            5. Click "Load unpacked" and select the extracted folder
+            
+            ### What's Changed
+            
+            See the full changelog below.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
