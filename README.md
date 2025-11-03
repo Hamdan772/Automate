@@ -3,13 +3,13 @@
 
 Automate is an open-source AI web automation tool that runs in your browser. A free alternative to OpenAI Operator with flexible LLM options and multi-agent system.
 
-⬇️ Get [Automate from Chrome Web Store](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal) for free
+⬇️ Get [Automate from Chrome Web Store](https://chromewebstore.google.com/detail/Automate/imbddededgmcgfhfpcjmijokokekbkal) for free
 
-👏 Join the community in [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/nanobrowser_ai)
+👏 Join the community in [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/Automate_ai)
 
-🌟 Loving Nanobrowser? Give us a star  and help spread the word!
+🌟 Loving Automate? Give us a star  and help spread the word!
 
-❤️ Support the project by [sponsoring us](https://github.com/sponsors/alexchenzl) - every contribution helps keep Nanobrowser free and open source!
+❤️ Support the project by [sponsoring us](https://github.com/sponsors/alexchenzl) - every contribution helps keep Automate free and open source!
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/112c4385-7b03-4b81-a352-4f348093351b" width="600" alt="Automate Demo GIF" />
@@ -47,20 +47,20 @@ Looking for a powerful AI browser agent without the $200/month price tag of Open
 **Not Supported:**
 - Firefox, Safari, and other Chromium variants (Opera, Arc, etc.)
 
-> **Note**: While Nanobrowser may function on other Chromium-based browsers, we recommend using Chrome or Edge for the best experience and guaranteed compatibility.
+> **Note**: While Automate may function on other Chromium-based browsers, we recommend using Chrome or Edge for the best experience and guaranteed compatibility.
 
 
 ## 🚀 Quick Start
 
 1. **Install from Chrome Web Store** (Stable Version):
-   * Visit the [Nanobrowser Chrome Web Store page](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal)
+   * Visit the [Automate Chrome Web Store page](https://chromewebstore.google.com/detail/Automate/imbddededgmcgfhfpcjmijokokekbkal)
    * Click "Add to Chrome" button
    * Confirm the installation when prompted
 
 > **Important Note**: For latest features, install from ["Manually Install Latest Version"](#-manually-install-latest-version) below, as Chrome Web Store version may be delayed due to review process.
 
 2. **Configure Agent Models**:
-   * Click the Nanobrowser icon in your toolbar to open the sidebar
+   * Click the Automate icon in your toolbar to open the sidebar
    * Click the `Settings` icon (top right)
    * Add your LLM API keys
    * Choose which model to use for different agents (Navigator, Planner)
@@ -70,29 +70,29 @@ Looking for a powerful AI browser agent without the $200/month price tag of Open
 To get the most recent version with all the latest features:
 
 1. **Download**
-    * Download the latest `nanobrowser.zip` file from the official Github [release page](https://github.com/nanobrowser/nanobrowser/releases).
+    * Download the latest `Automate.zip` file from the official Github [release page](https://github.com/Automate/Automate/releases).
 
 2. **Install**:
-    * Unzip `nanobrowser.zip`.
+    * Unzip `Automate.zip`.
     * Open `chrome://extensions/` in Chrome
     * Enable `Developer mode` (top right)
     * Click `Load unpacked` (top left)
-    * Select the unzipped `nanobrowser` folder.
+    * Select the unzipped `Automate` folder.
 
 3. **Configure Agent Models**
-    * Click the Nanobrowser icon in your toolbar to open the sidebar
+    * Click the Automate icon in your toolbar to open the sidebar
     * Click the `Settings` icon (top right).
     * Add your LLM API keys.
     * Choose which model to use for different agents (Navigator, Planner)
 
 4. **Upgrading**:
-    * Download the latest `nanobrowser.zip` file from the release page.
-    * Unzip and replace your existing Nanobrowser files with the new ones.
-    * Go to `chrome://extensions/` in Chrome and click the refresh icon on the Nanobrowser card.
+    * Download the latest `Automate.zip` file from the release page.
+    * Unzip and replace your existing Automate files with the new ones.
+    * Go to `chrome://extensions/` in Chrome and click the refresh icon on the Automate card.
 
 ## 🛠️ Build from Source
 
-If you prefer to build Nanobrowser yourself, follow these steps:
+If you prefer to build Automate yourself, follow these steps:
 
 1. **Prerequisites**:
    * [Node.js](https://nodejs.org/) (v22.12.0 or higher)
@@ -100,8 +100,8 @@ If you prefer to build Nanobrowser yourself, follow these steps:
 
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/nanobrowser/nanobrowser.git
-   cd nanobrowser
+   git clone https://github.com/Automate/Automate.git
+   cd Automate
    ```
 
 3. **Install Dependencies**:
@@ -125,7 +125,7 @@ If you prefer to build Nanobrowser yourself, follow these steps:
 
 ## 🤖 Choosing Your Models
 
-Nanobrowser allows you to configure different LLM models for each agent to balance performance and cost. Here are recommended configurations:
+Automate allows you to configure different LLM models for each agent to balance performance and cost. Here are recommended configurations:
 
 ### Better Performance
 - **Planner**: Claude Sonnet 4
@@ -180,19 +180,19 @@ Here are some powerful tasks you can accomplish with just a sentence:
 
 ## 🛠️ Roadmap
 
-We're actively developing Nanobrowser with exciting features on the horizon, welcome to join us! 
+We're actively developing Automate with exciting features on the horizon, welcome to join us! 
 
-Check out our detailed roadmap and upcoming features in our [GitHub Discussions](https://github.com/nanobrowser/nanobrowser/discussions/85). 
+Check out our detailed roadmap and upcoming features in our [GitHub Discussions](https://github.com/Automate/Automate/discussions/85). 
 
 ## 🤝 Contributing
 
-**We need your help to make Nanobrowser even better!**  Contributions of all kinds are welcome:
+**We need your help to make Automate even better!**  Contributions of all kinds are welcome:
 
 *  **Share Prompts & Use Cases** 
    * Join our [Discord server](https://discord.gg/NN3ABHggMK).
-   * share how you're using Nanobrowser.  Help us build a library of useful prompts and real-world use cases.
+   * share how you're using Automate.  Help us build a library of useful prompts and real-world use cases.
 *  **Provide Feedback** 
-   * Try Nanobrowser and give us feedback on its performance or suggest improvements in our [Discord server](https://discord.gg/NN3ABHggMK).
+   * Try Automate and give us feedback on its performance or suggest improvements in our [Discord server](https://discord.gg/NN3ABHggMK).
 * **Contribute Code**
    * Check out our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute code to the project.
    * Submit pull requests for bug fixes, features, or documentation improvements.
@@ -205,21 +205,21 @@ We believe in the power of open source and community collaboration.  Join us in 
 
 If you discover a security vulnerability, please **DO NOT** disclose it publicly through issues, pull requests, or discussions.
 
-Instead, please create a [GitHub Security Advisory](https://github.com/nanobrowser/nanobrowser/security/advisories/new) to report the vulnerability responsibly. This allows us to address the issue before it's publicly disclosed.
+Instead, please create a [GitHub Security Advisory](https://github.com/Automate/Automate/security/advisories/new) to report the vulnerability responsibly. This allows us to address the issue before it's publicly disclosed.
 
-We appreciate your help in keeping Nanobrowser and its users safe!
+We appreciate your help in keeping Automate and its users safe!
 
 ## 💬 Community
 
 Join our growing community of developers and users:
 
 - [Discord](https://discord.gg/NN3ABHggMK) - Chat with team and community
-- [Twitter](https://x.com/nanobrowser_ai) - Follow for updates and announcements
-- [GitHub Discussions](https://github.com/nanobrowser/nanobrowser/discussions) - Share ideas and ask questions
+- [Twitter](https://x.com/Automate_ai) - Follow for updates and announcements
+- [GitHub Discussions](https://github.com/Automate/Automate/discussions) - Share ideas and ask questions
 
 ## 👏 Acknowledgments
 
-Nanobrowser builds on top of other awesome open-source projects:
+Automate builds on top of other awesome open-source projects:
 
 - [Browser Use](https://github.com/browser-use/browser-use)
 - [Puppeteer](https://github.com/EmergenceAI/Agent-E)
@@ -232,15 +232,15 @@ Huge thanks to their creators and contributors!
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-Made with ❤️ by the Nanobrowser Team. 
+Made with ❤️ by the Automate Team. 
 
-Like Nanobrowser? Give us a star 🌟 and join us in [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/nanobrowser_ai)
+Like Automate? Give us a star 🌟 and join us in [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/Automate_ai)
 
 ## ⚠️ DISCLAIMER ON DERIVATIVE PROJECTS
 
 **We explicitly *DO NOT* endorse, support, or participate in any** projects involving cryptocurrencies, tokens, NFTs, or other blockchain-related applications **based on this codebase.**
 
-**Any such derivative projects are NOT Affiliated with, or maintained by, or in any way connected to the official Nanobrowser project or its core team.**
+**Any such derivative projects are NOT Affiliated with, or maintained by, or in any way connected to the official Automate project or its core team.**
 
 **We assume NO LIABILITY for any losses, damages, or issues arising from the use of third-party derivative projects. Users interact with these projects at their own risk.**
 
