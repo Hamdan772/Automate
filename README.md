@@ -9,13 +9,6 @@ Automate is an open-source AI web automation tool that runs in your browser. A f
 
 🌟 Loving Automate? Give us a star  and help spread the word!
 
-❤️ Support the project by [sponsoring us](https://github.com/sponsors/alexchenzl) - every contribution helps keep Automate free and open source!
-
-<div align="center">
-<img src="https://github.com/user-attachments/assets/112c4385-7b03-4b81-a352-4f348093351b" width="600" alt="Automate Demo GIF" />
-<p><em>Automate's multi-agent system analyzing HuggingFace in real-time, with the Planner intelligently self-correcting when encountering obstacles and dynamically instructing the Navigator to adjust its approach—all running locally in your browser.</em></p>
-</div>
-
 ## 🔥Why Automate?
 
 Looking for a powerful AI browser agent without the $200/month price tag of OpenAI Operator? **Automate**, as a chrome extension, delivers premium web automation capabilities while keeping you in complete control:
